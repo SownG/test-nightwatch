@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="testCase5"
+    errors="0" failures="1" hostname="" id="" package="leadDetail" skipped="0"
+    tests="1" time="36.54" timestamp="Tue, 13 Dec 2016 12:17:30 GMT">
+  
+    <testcase name="View Edit screen" time="36.54" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//div[contains(@style,&quot;padding: 16px 0px; display: table-cell; user-select: none; width: 192px;&quot;)]/div[position()=7]&gt; to be present for 2000 milliseconds.">    at Object.editSaveSearch (C:/Users/Tung Son/Desktop/test-thousand-stars-master/pages/leadDetail.js:46:14)
+    at Object.ViewEditScreen [as View Edit screen] (C:/Users/Tung Son/Desktop/test-thousand-stars-master/tests/saveSearch/leadDetail/testCase5.js:22:20)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

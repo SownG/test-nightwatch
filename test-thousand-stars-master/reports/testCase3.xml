@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="testCase3"
+    errors="1" failures="0" hostname="" id="" package="testCase3" skipped="0"
+    tests="1" time="0.03500" timestamp="Tue, 13 Dec 2016 04:01:17 GMT">
+  
+    <testcase name="Save search success" time="0.03500" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Test Case3 / Save search success]:
+
+  ReferenceError: leadDetailAdd is not defined
+    at Object.SaveSearchSuccess [as Save search success] (C:/Users/Tung Son/Desktop/test-thousand-stars-master/tests/saveSearch/testCase3.js:9:9)
+    at Module.call (C:\Users\Tung Son\Desktop\test-thousand-stars-master\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Tung Son\Desktop\test-thousand-stars-master\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Tung Son\Desktop\test-thousand-stars-master\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Tung Son\Desktop\test-thousand-stars-master\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Tung Son\Desktop\test-thousand-stars-master\node_modules\q\q.js:796:13)
+    at C:\Users\Tung Son\Desktop\test-thousand-stars-master\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Tung Son\Desktop\test-thousand-stars-master\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Tung Son\Desktop\test-thousand-stars-master\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

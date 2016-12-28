@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="testCase2"
+    errors="0" failures="0" hostname="" id="" package="leadDetail" skipped="0"
+    tests="1" time="24.86" timestamp="Tue, 13 Dec 2016 10:00:19 GMT">
+  
+    <testcase name="Add một saved search (không có amenities)" time="24.86" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

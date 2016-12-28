@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="testCase3"
+    errors="0" failures="0" hostname="" id="" package="leadDetail" skipped="0"
+    tests="1" time="35.29" timestamp="Tue, 13 Dec 2016 10:00:44 GMT">
+  
+    <testcase name="Add saved search có amenities" time="35.29" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="testCase2"
+    errors="0" failures="1" hostname="" id="" package="testCase2" skipped="0"
+    tests="1" time="24.79" timestamp="Sat, 10 Dec 2016 05:23:43 GMT">
+  
+    <testcase name="Save search success" time="24.79" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;div[class=&quot;pac-item&quot;]&gt; to be visible for 2000 milliseconds.">    at Object.submitHaveLocation (C:/Users/Tung Son/Desktop/test-login-thousand-stars-master/pages/leadDetailAdd.js:24:14)
+    at Object.SaveSearchSuccess [as Save search success] (C:/Users/Tung Son/Desktop/test-login-thousand-stars-master/tests/saveSearch/testCase2.js:27:23)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

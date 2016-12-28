@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="testCase1"
+    errors="1" failures="1" hostname="" id="" package="saveSearch" skipped="0"
+    tests="1" time="32.05" timestamp="Fri, 09 Dec 2016 04:15:09 GMT">
+  
+    <testcase name="save search with full information" time="32.05" assertions="2">
+
+      <failure message="Expected element &lt;//div[@class=&quot;left-column&quot;]&gt; to be visible - element was not found">    at Object.saveSearchWithFullInformation [as save search with full information] (C:/Users/Tung Son/Desktop/test-login-thousand-stars-master/tests/saveSearch/testCase1.js:21:28)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;//button[@class=&quot;logoutBtn ylopo-button&quot;]&quot; using: xpath
+    at Object.click (C:\Users\Tung Son\Desktop\test-login-thousand-stars-master\node_modules\nightwatch\lib\page-object\command-wrapper.js:117:25)
+    at Object.submitSave (C:/Users/Tung Son/Desktop/test-login-thousand-stars-master/pages/leadDetailAdd.js:10:8)
+    at Object.saveSearchWithFullInformation [as save search with full information] (C:/Users/Tung Son/Desktop/test-login-thousand-stars-master/tests/saveSearch/testCase1.js:19:14)
+    at Module.call (C:\Users\Tung Son\Desktop\test-login-thousand-stars-master\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Tung Son\Desktop\test-login-thousand-stars-master\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Tung Son\Desktop\test-login-thousand-stars-master\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Tung Son\Desktop\test-login-thousand-stars-master\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Tung Son\Desktop\test-login-thousand-stars-master\node_modules\q\q.js:796:13)
+    at C:\Users\Tung Son\Desktop\test-login-thousand-stars-master\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Tung Son\Desktop\test-login-thousand-stars-master\node_modules\q\q.js:137:13)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
