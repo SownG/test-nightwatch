@@ -1,9 +1,10 @@
+# commit by sown pham
 # Test Tool Study Report
 
 ### 1.	Introduction
 Currently, in the Stars and Malabar project unused test tools for frontend. To save time for regression testing in both project, need to use tool End-to-End tests in Node.js quickly and support ReactJs
 ### 2.	Auto Testing Solutions
-I do not find support End-to-End testing tool test directly in reactjs (Facebook using [Jest](https://facebook.github.io/jest/) but it is focused on testing isolated pieces of your application logic). We testing with DOM elements after the code Reactjs rendered. 
+I do not find support End-to-End testing tool test directly in reactjs (Facebook using [Jest](https://facebook.github.io/jest/) but it is focused on testing isolated pieces of your application logic). We testing with DOM elements after the code Reactjs rendered.
 
 So we can use Selenium WebDriver API. There are many libraries trying to make it simpler:
 -	Nightwatch.js
@@ -15,9 +16,9 @@ I'm using Nightwatch.js for e2e regression testing because it easy to use Node.j
 ### 3. Overview about Nightwatch.js solution
 
 #### a. Overview
- 
+
  Nightwatch.js is an easy to use Node.js based End-to-End (E2E) testing solution for browser based apps and websites. It uses the powerful W3C WebDriver API to perform commands and assertions on DOM elements.
- 
+
 #### b. Main Features
 <img src="./resources/main-feature-nightwatch.jpg" />
 ### 4. Demo using Nightwatch.js in Auto Testing Login in Stars
@@ -30,11 +31,11 @@ You will `need`:
 
 As they are all required for `Selenium` and `Nightwatch` to work properly.
 
-Go to your terminal run: 
+Go to your terminal run:
 
 `npm install`
 
-`npm run setup` 
+`npm run setup`
 
 It will download the latest version of selenium server and browser driver
 ##### ii. Configuration
@@ -128,7 +129,7 @@ module.exports = require('./nightwatch.json');
 
 ##### iv. The Tests login
 
-###### - In folder `tests/login`. 
+###### - In folder `tests/login`.
 
 I have 4 files correspond to 4 cases login:
 
@@ -295,7 +296,7 @@ Detail report will save in folder `reports/login`
 
 Nightwatch can test many browsers at the same time, such as: Chrome, Firefox, IE. And we can create mobile environment to run test script. However it’s difficult to check logic function (post function) in multi browsers.
 
-Test result is not easy to view because it based on assertions not based on test case ( 1 case has many assertions). 
+Test result is not easy to view because it based on assertions not based on test case ( 1 case has many assertions).
 
 With Ylopo, we can use Night watch to test the UI (such as: checking validation, returning value of API,…) if the UI (Stars or Malabar) is stable (The UI does not have much changing) . This will help us to reduce testing script maintaining effort.
 
